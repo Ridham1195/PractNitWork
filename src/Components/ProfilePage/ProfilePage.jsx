@@ -47,7 +47,7 @@ function ProfilePage() {
       width: '50%',
       maxWidth: '500px',
       backgroundColor: 'purple',
-      padding: '2rem',
+      padding: '0rem',
       borderRadius: '5px'
     }}>
       <Container maxWidth="sm" sx={{
@@ -97,7 +97,7 @@ function ProfilePage() {
           width: '100%'
         }}>
 
-        <Grid item xs={12} sm={12}>
+        <Grid item xs={12} sm={12} style={{ position: 'relative' }}>
             
             <TextField
               fullWidth
@@ -110,8 +110,8 @@ function ProfilePage() {
               onClick={handleNameEditClick}
               sx={{
                 position: 'absolute',
-                top: '46%',
-                right: '3.5rem',
+                top: '60%',
+                right: '0rem',
                 transform: 'translateY(-50%)',
                 backgroundColor: 'transparent',
                 color: 'white'
@@ -136,7 +136,7 @@ function ProfilePage() {
           
           <Grid item xs={12} sm={12}>
             <Button variant="contained" fullWidth sx={{
-              marginTop: '2rem', background: 'violet'
+              marginTop: '2rem', background: 'violet', marginBottom: '2rem'
             }}>
               Log Out
             </Button>
