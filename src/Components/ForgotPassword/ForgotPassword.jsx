@@ -97,7 +97,7 @@ export default function ForgotPassword() {
           fullWidth
           sx={{ mt: 2, backgroundColor: 'blue' }}
         >
-          Submit
+          Continue
         </Button>
       </Box>
     </Box>
