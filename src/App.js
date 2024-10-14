@@ -5,8 +5,8 @@ import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
 
 function App() {
   return (
-    // <ProfilePage />
-    <ForgotPassword />
+    <ProfilePage />
+    // <ForgotPassword />
   );
 }
 
